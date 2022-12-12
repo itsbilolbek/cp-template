@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define LOCAL
+// #define ONLINE_JUDGE
 
 /* TYPES  */
 #define ar array
@@ -24,7 +24,8 @@ using namespace std;
 
 /* UTILS */
 #define endl "\n"
-#define REP(i, a, b) for(auto i = a; i <= b; ++i)
+#define rep(i, a, b) for(auto i = a; i <= b; ++i)
+#define rrep(i, a, b) for(auto i = b; i >= a; --i)
 #define F first
 #define S second
 #define sp <<" "<<
